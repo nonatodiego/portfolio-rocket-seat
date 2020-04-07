@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+
+  {% block head %}
+    <title>Projeto</title>
+  {% endblock %}
+
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+  <header class="links">
+    <a href="/">Sobre</a>
+    <a href="/portfolio">Aulas</a>
+  </header>
+
+  {% block content %}{% endblock %}
+
+
+
+</body>
+</html>
